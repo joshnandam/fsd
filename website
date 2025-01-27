@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semantic Tags Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #0066ff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        section, article {
+            background-color: #f4f4f4;
+            margin: 10px;
+            padding: 20px;
+            flex: 1 1 45%;
+            border-radius: 8px;
+            text-align: center;
+        }
+        figure {
+            margin: 0;
+        }
+        footer {
+            font-size: 0.8em;
+            background-color: #000000;
+        }
+        img {
+          center
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+    
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to our website! We are dedicated to providng the best services to our costumers. Learn more about our journey and values. Here is a word with a <mark>highlight</mark> effect..</p>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.j18U6uvAg-ta2XBvDKNQlAHaEK&pid=Api&P=0&h=180" alt="our team at work">
+        </section>
+        <aside>
+            <section id="latest news">
+              <h2>Latest news</h2>
+              <p>Check out our latest updates in the website</p>
+            </section>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
