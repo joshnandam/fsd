@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>CSS Color References</title>
+<style> 
+.named-color {
+background-color: red; 
+ padding: 10px;
+ margin: 10px;
+
+ } 
+ .hex-color { 
+ background-color: #1E90FF;  
+ padding: 10px; 
+ margin: 10px; 
+ 
+ } 
+ .rgb-color { 
+ background-color: rgb(255, 87, 51); 
+ background-color: #006600;
+ padding: 10px; 
+ margin: 10px; 
+ 
+ } 
+ .rgba-color { 
+ background-color: #ff751a;
+ padding: 10px; 
+ margin: 10px; 
+ 
+ } 
+ .hsl-color { 
+ background-color: #0047b3;
+ padding: 10px; 
+ margin: 10px; 
+
+ } 
+ .hsla-color { 
+ background-color: #00cc66;
+ padding: 10px; 
+ margin: 10px; 
+ } 
+ </style> 
+ </head> 
+ <body> 
+ <div class="named-color">Color name: Red </div> 
+ <div class="hex-color"> HEX Value: #1E90FF </div> 
+ <div class="rgb-color"> RGB Value: rgb(34,139,34) </div> 
+ <div class="rgba-color"> RGBA Value: rgba(255 , 99, 71,0.7) </div> 
+ <div class="hsl-color"> HSL Value: hsl(240, 100% ,50%) </div> 
+ <div class="hsla-color"> HSLA Value: hsla(120,60%, 70% ,0.6) </div> 
+ </body> 
+</html> 
